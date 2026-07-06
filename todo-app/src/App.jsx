@@ -16,15 +16,15 @@ const deleteTask = (indexToRemove) => {
 return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-50 to-slate-100 flex items-center justify-center p-6">
       
-      {/* Modern yet Simple Card */}
+      {}
       <div className="bg-white p-7 rounded-2xl shadow-xl w-full max-w-md border border-slate-100">
         
-        {/* Clean Heading */}
+        {}
         <h1 className="text-2xl font-bold text-slate-800 mb-6 text-center tracking-tight">
           My Daily Tasks
         </h1>
 
-        {/* Input & Button Section */}
+        {}
         <div className="flex gap-2 mb-5">
           <input 
             type="text"
@@ -41,7 +41,7 @@ return (
           </button>
         </div>
 
-        {/* Task Items List */}
+        {}
         <ul className="space-y-2.5">
           {task.map((singleTask, index) => (
             <li 
@@ -59,7 +59,7 @@ return (
           ))}
         </ul>
 
-        {/* Empty list banner */}
+        {}
         {task.length === 0 && (
           <p className="text-center text-slate-400 text-xs mt-6 font-medium bg-slate-50 py-3 rounded-xl border border-dashed border-slate-200">
             No tasks added yet. Get started above!
